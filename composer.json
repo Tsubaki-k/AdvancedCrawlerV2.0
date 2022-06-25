@@ -1,0 +1,19 @@
+{
+    "name": "CrawlerV2",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RealMrHex\\CrawlerCore\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MrHex & Sajede Keshtkar"
+        }
+    ],
+    "require": {
+        "symfony/dom-crawler": "^6.1",
+        "symfony/css-selector": "^6.1",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
